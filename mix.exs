@@ -72,6 +72,10 @@ defmodule BlockScout.Mixfile do
   # and cannot be accessed from applications inside the apps folder
   defp deps do
     [
+      {:spandex, "~> 3.0"},
+      {:spandex_datadog, "~> 1.0"},
+      {:spandex_ecto, "~> 0.6.2"},
+      {:spandex_phoenix, "~> 1.0"},
       # Documentation
       {:ex_doc, "~> 0.19.0", only: [:dev]},
       # Code coverage
